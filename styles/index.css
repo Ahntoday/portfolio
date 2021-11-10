@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@font-face {
+    font-family: 'GmarketBold';
+    src: url('../fonts/GmarketSansTTFBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GmarketMedium';
+    src: url('../fonts/GmarketSansTTFMedium.ttf') format('truetype');
+}
+
+html {
+    overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+}
+
+header {
+    height: 3%;
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    right: 5%;
+    z-index: 100;
+    background-color: white;
+    border-radius: 16px;
+    border: solid 2px #0a0a0a;
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#section1 {
+    background-color: white;
+    display: flex;
+}
+
+#section2 {
+    background-color: pink;
+}
+
+#section3 {
+    background-color: silver;
+}
+
+#section4 {
+    background-color: wheat;
+}
+
+.intro-text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.intro-text {
+    padding-left: 15%;
+    
+}
+.intro-mini-name {
+    font-family: GmarketMedium;
+    font-size: 1rem;
+}
+
+.intro-big {
+    font-family: GmarketBold;
+    font-size: 5.6rem;
+    color: #ffc972;
+    -webkit-text-stroke: 3px #000;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    margin: 0;
+}
+
+.intro-images {
+    position: relative;
+    width: 50%;
+}
+
+.intro-image-whoami {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    z-index: 8;
+    transform: rotate(-23deg);
+}
+
+.intro-image-timeline {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    z-index: 7;
+    transform: rotate(-1deg);
+}
+
+.intro-image-project {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    z-index: 9;
+    transform: rotate(11deg);
+}
+
+.intro-image-welcome {
+    position: absolute;
+    left: 20%;
+    top: 38%;
+    z-index: 10;
+    transform: rotate(20deg);
+}
+
+.intro-whoami-txt {
+    position: absolute;
+    left: 14%;
+    top: 20%;
+    z-index: 8;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.intro-timeline-txt {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    z-index: 7;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.intro-project-txt {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: 9;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.5rem;
+    color: black;
+}
